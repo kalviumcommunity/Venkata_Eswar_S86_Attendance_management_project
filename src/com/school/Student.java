@@ -10,6 +10,7 @@ public class Student {
     }
 
     public void displayDetails() {
+        System.err.println("Students Listed:");
         System.out.println("Student ID: " + this.studentId + ", Name: " + this.name);
     }
 }

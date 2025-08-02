@@ -11,10 +11,12 @@ public class Main {
         courses[1] = new Course();
 
         for (Student student : students) {
+            System.err.println("Successfully created a Student object.");
             System.out.println("Student: " + student);
         }
 
         for (Course course : courses) {
+            System.err.println("Successfully created a Course object.");
             System.out.println("Course: " + course);
         }
     }
