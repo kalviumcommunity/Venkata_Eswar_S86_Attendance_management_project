@@ -5,6 +5,7 @@ public class AttendanceRecord {
     private int courseId;
     private String status;
 
+
     public AttendanceRecord(int studentId, int courseId, String status) {
         this.studentId = studentId;
         this.courseId = courseId;

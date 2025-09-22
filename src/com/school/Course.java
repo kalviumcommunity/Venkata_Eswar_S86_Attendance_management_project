@@ -5,6 +5,7 @@ public class Course {
     private int courseId;
     private String courseName;
 
+
     public Course(String courseName) {
         this.courseId = nextCourseIdCounter++;
         this.courseName = courseName;
